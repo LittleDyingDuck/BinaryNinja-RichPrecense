@@ -13,17 +13,5 @@ The plugin displays the file name of the binary in the current view as well as t
 
 ## Requirements
 
-The plugin uses [`pypresence==4.2.0`](https://pypi.org/project/pypresence/) for the Discord integration. Make sure, that
+The plugin uses [`pypresence`](https://pypi.org/project/pypresence/) for the Discord integration. Make sure, that
 the Python interpreter used by Binary Ninja has `pypresence` installed.
-
-## Installation
-
-To install this plugin, please see the "Using Plugins" section of the [Getting Started Guide](https://docs.binary.ninja/getting-started.html#using-plugins). Or use Binary Ninja's built in plugin manager.
-
-## License
-
-This project is licensed under the MIT license.
-
-## Metadata Version
-
-2
