@@ -1,12 +1,29 @@
-# BinaryNinja-RichPrecense
-Posting this as a ""fix"" because the OG one was broken and a pain in the willy to fix.
+<h1 align="center">Binary Ninja Discord Rich Presence Integration</h1>
+<p align="center">
+    <a href="https://github.com/x1tan/binaryninja-discord-integration/blob/master/LICENSE">
+        <img alt="GitHub" src="https://img.shields.io/github/license/x1tan/binaryninja-discord-integration">
+    </a>
+</p>
 
+## Features
 
-# How-to
-1. press `CTRL + ,` to open settings    
-2. search for `Python` and click python in the bar    
-3. you should see something for "site-packages folder", select that and put in `C:\Users\<username_edit_this>\AppData\Local\Vector35\BinaryNinja\plugins\python\Lib\site-packages` (they don't accept environment variables in the name, dunno why)    
-4. go to command prompt and put in this `%LOCALAPPDATA%\Vector35\BinaryNinja\plugins\python\python.exe -m pip install pypresence`  
-5. clone the github repo    
-6. open the download in winrar, and extract the "duck_fixeddiscordintegration" to `%APPDATA%\Binary Ninja\plugins`    
-7. restart binary ninja and open a project/executable/whatever and it should appear on your status.
+![](https://i.imgur.com/hBTlbWF.png)
+
+The plugin displays the file name of the binary in the current view as well as the elapsed time.
+
+## Requirements
+
+The plugin uses [`pypresence==4.2.0`](https://pypi.org/project/pypresence/) for the Discord integration. Make sure, that
+the Python interpreter used by Binary Ninja has `pypresence` installed.
+
+## Installation
+
+To install this plugin, please see the "Using Plugins" section of the [Getting Started Guide](https://docs.binary.ninja/getting-started.html#using-plugins). Or use Binary Ninja's built in plugin manager.
+
+## License
+
+This project is licensed under the MIT license.
+
+## Metadata Version
+
+2
